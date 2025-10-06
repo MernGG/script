@@ -97,6 +97,11 @@ local function doRtp()
 end
 
 local function doLoop()
+    if (not TeleportCheck) then
+        queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/MernGG/script/refs/heads/master/geode.lua'))()")
+    end
+    
+
     wait(10)
     local fastTravelMenu = player.PlayerGui.MainUI.FastTravel
     fastTravelMenu.Visible = true
