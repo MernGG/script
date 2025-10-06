@@ -17,7 +17,7 @@ local TeleportCheck = false
 Players.LocalPlayer.OnTeleport:Connect(function(State)
 	if (not TeleportCheck) and queue_on_teleport then
 		TeleportCheck = true
-		queue_on_teleport("loadstring(game:HttpGet(https://pastebin.com/raw/ps5nfKZt'))()")
+		queue_on_teleport("loadstring(game:HttpGet('https://raw.githubusercontent.com/MernGG/script/refs/heads/master/geode.lua'))()")
 	end
 end)
 
