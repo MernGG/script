@@ -11,7 +11,7 @@ local TeleportService = game:GetService("TeleportService")
 local Players = game:GetService("Players")
 
 
-print('Starting')
+print('Starting...')
 local TeleportCheck = false
 
 Players.LocalPlayer.OnTeleport:Connect(function(State)
